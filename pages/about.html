@@ -11,59 +11,67 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
-
-  <body class="bg-light" style="height: 100vh">
-  <div class="loading-container">
-      <div class="loading-screen">
-      </div>
-  </div>
-    <!-- Better to wrap barba container as close as possible -->
-    <div data-barba="wrapper">
-      <!-- Only this section changes on link navigation -->
-      <main data-barba="container" data-barba-namespace="about">
-
-        <div class="heading-container">
-            <header>
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="/index.html">home</a></li>
-                        <li>about</li>
-                        <li><a href="/pages/contact.html">contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <h1 class="main-heading is-animated">This is<br><span class="green-heading-bg">the about</span><br>screen.<br></h1>
-          <img src="../assets/img/hand-2.png" class="main-img is-animated" alt="image">
+<body class="bg-light">
+<div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg mt-5 shadow  position-relative" style="background: #aaa">
+        <div class="container-fluid">
+            <a class="navbar-brand position-absolute" style="top:-30px" href="#"><img src="/assets/img/logo.png" alt="logo" style="width: 120px"></a>
         </div>
-      </main>
-    </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="/index.html" title="home">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link active" href="/pages/about.html" title="About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/contact.html" title="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="container mt-4">
+        <h3 class="my-3">We know sell. In fact, we are creating an innovative sales network</h3>
+        <p>What if you could connect directly to 1.5 million Asian boutiques?</p>
+        <p>What if you could get their order instantly, making an effortless sale?</p>
+        <p>What if you could sell in Asia without exporting?</p>
+        <p>What if you could protect yourself like a luxury brand?</p>
+        <p>Welcome to Mag², we are on mission to make all these happen, just like magic.</p>
 
-    <footer>
-      <ul>
-        <li><a href="http://karanmhatre.com">Karan Mhatre</a></li>
-        <li>•</li>
-        <li><a href="https://github.com/karanmhatre1/barba-page-transition-example" target="_blank">Find on Github</a></li>
-      </ul>
+        <div class="rounded-3 overflow-hidden border border-dark mt-4">
+                <iframe width="100%" style="aspect-ratio: 2 / 1;" src="https://youtube.com/embed/5_ck1K-BAmQ?si=-qLar-6Mic-FCTGM" ></iframe>
 
+        </div>
+
+        <h3 class="mt-5">Press Release</h3>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col">
+                <div class="card">
+                    <img src="https://loremflickr.com/g/320/240/pekin" class="card-img-top" alt="fashion">
+                    <div class="card-body">
+                        <h5 class="card-title">Post Test</h5>
+                        <p class="card-text">This is testing post. At least 12 letters and i need to check out if the previous nav works or not</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://loremflickr.com/g/320/240/shop" class="card-img-top" alt="fashion">
+                    <div class="card-body">
+                        <h5 class="card-title">Email Reply</h5>
+                        <p class="card-text">Our website is currently in beta. We can’t process all the emails you send on the website within 24 hours, please give us a week, and we will definitely reply to you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://loremflickr.com/g/320/240/china" class="card-img-top" alt="fashion">
+                    <div class="card-body">
+                        <h5 class="card-title">CFO Recuiting</h5>
+                        <p class="card-text">We are recruiting CFO, please contact us for our requirements and send your CV to the following email address:
+                            <a href="mailto:fanny_yu@orange.fr" title="mailto">fanny_yu@orange.fr</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center mt-5">
+        @2023 Mag² ⎮ All rights reserved
     </footer>
-
-  </body>
-
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-  <!-- Barba Core -->
-  <script src="https://unpkg.com/@barba/core"></script>
-
-  <!-- GSAP for animation -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
-
-  <!-- Some basic helper functions -->
-  <script src="../assets/js/helper.js"></script>
-
-  <!-- Main JS file -->
-  <script src="../assets/js/main.js"></script>
-
-
+</div>
+</body>
 </html>

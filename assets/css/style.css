@@ -1,5 +1,12 @@
 body {
   font-family: "Lato", sans-serif;
+  background: #eee url(../img/brick-wall.png) ;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  color:#FFED00
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+  color:#C000C3
 }
 
 .loading-screen {
